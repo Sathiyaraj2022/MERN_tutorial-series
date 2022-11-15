@@ -1,0 +1,19 @@
+{
+  "name": "nodejs2",
+  "version": "1.0.0",
+  "description": "Nodejs Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Sathiyaraj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
